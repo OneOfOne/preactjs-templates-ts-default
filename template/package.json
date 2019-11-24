@@ -1,7 +1,6 @@
 {
 	"private": true,
-	"xname": "{{ name }}",
-	"name": "xxxx",
+	"name": "{{ name }}",
 	"version": "0.0.0",
 	"license": "MIT",
 	"scripts": {
@@ -11,7 +10,7 @@
 		"build": "preact build",
 		"serve": "preact build && serve build --single",
 		"dev": "preact watch",
-		"lint": "eslint src"
+		"lint": "eslint ./src"
 	},
 	"eslintConfig": {
 		"extends": [
