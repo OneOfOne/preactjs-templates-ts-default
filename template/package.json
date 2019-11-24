@@ -5,8 +5,8 @@
 	"license": "MIT",
 	"scripts": {
 		"start": "per-env",
-		"start:production": "yarn run -s serve",
-		"start:development": "yarn run -s dev",
+		"start:production": "npm run -s serve",
+		"start:development": "npm run -s dev",
 		"build": "preact build",
 		"serve": "preact build && serve build --single",
 		"dev": "preact watch",
